@@ -1,0 +1,43 @@
+.o{
+    height: 100vh;
+    scroll-snap-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.o-left{
+flex: 1;
+}
+.o-right{
+    flex: 1;
+    
+}
+.o-title{
+    font-size: 74px;
+}
+.o-div{
+    display: flex;
+    flex-direction: column;
+    gap: 0; 
+    justify-content: space-between;
+ }  
+
+.o-abt{
+    color:#c310d3;
+    font-size: 40px;
+}
+.o-desc{
+    font-size: 20px;
+    color: lightgrey;
+}
+.o-button{
+    background-color:hsl(295, 88%, 53%);
+color: white;
+font-weight: 500;
+width: 100px;
+height: 50px;
+padding: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
