@@ -35,8 +35,13 @@ padding: 20px;
 .c-mess{
     padding: 20px;
 }
-.c-button{
-
+.c-butt{
+padding: 20px;
+background-color:rgba(226, 31, 161, 0.795) ;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
 }
 .c-right{
 flex: 1;
